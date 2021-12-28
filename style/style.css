@@ -156,5 +156,11 @@ body {
   border-top-color: rgb(247, 240, 240);
 }
 
+#svgMaine {
+  margin-left:auto; 
+  margin-right:auto; 
+  display:block;
+}
+
 
 
