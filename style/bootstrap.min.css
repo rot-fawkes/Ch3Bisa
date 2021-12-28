@@ -3241,8 +3241,8 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca
+    background-color: #0a0a0a;
+    border-color: #0c0d0e
 }
 
 .btn-check:focus+.btn-primary,
@@ -4508,7 +4508,8 @@ fieldset:disabled .btn {
 .nav-tabs .nav-link.active {
     color: #495057;
     background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff
+    border-color: #dee2e6 #dee2e6 #fff;
+    letter-spacing: 0.4rem;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4532,19 +4533,22 @@ fieldset:disabled .btn {
 .nav-fill .nav-item,
 .nav-fill>.nav-link {
     flex: 1 1 auto;
-    text-align: center
+    text-align: center;
+    letter-spacing: 0.2rem;
 }
 
 .nav-justified .nav-item,
 .nav-justified>.nav-link {
     flex-basis: 0;
     flex-grow: 1;
-    text-align: center
+    text-align: center;
+    letter-spacing: 0.2rem;
 }
 
 .nav-fill .nav-item .nav-link,
 .nav-justified .nav-item .nav-link {
-    width: 100%
+    width: 100%;
+    letter-spacing: 0.2rem;
 }
 
 .tab-content>.tab-pane {
@@ -7305,7 +7309,7 @@ s
 }
 
 .link-primary {
-    color: #0d6efd
+    color: #000
 }
 
 .link-primary:focus,
@@ -8255,6 +8259,14 @@ s
     margin-right: 3rem !important
 }
 
+.me-6 {
+    margin-right: 3.5rem !important
+}
+
+.me-7 {
+    margin-right: 10.5rem !important
+}
+
 .me-auto {
     margin-right: auto !important
 }
@@ -8309,6 +8321,14 @@ s
 
 .ms-5 {
     margin-left: 3rem !important
+}
+
+.ms-6 {
+    margin-left: 3.5rem !important
+}
+
+.ms-7 {
+    margin-left: 4.5rem !important
 }
 
 .ms-auto {
@@ -8504,6 +8524,9 @@ s
     padding-left: 3rem !important
 }
 
+.ps-6 {
+    padding-left: 20rem !important
+}
 .font-monospace {
     font-family: var(--bs-font-monospace) !important
 }
@@ -8553,7 +8576,8 @@ s
 }
 
 .fw-bold {
-    font-weight: 700 !important
+    font-weight: 700;
+    letter-spacing: 0.7px;
 }
 
 .fw-bolder {
