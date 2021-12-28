@@ -6,9 +6,9 @@
 
  main {
   background-image: url(../assets/main-bg.jpg);  
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .text-footer {
@@ -16,15 +16,11 @@
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important
 }
 
-.satu {
-  background-image: url(../assets/main-bg.jpg); 
-  max-height:100%;
-  max-width:100; 
-}
-
 .dua {
   background-image: url(../assets/the-games-bg.jpg);  
-  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .tiga {
@@ -33,12 +29,14 @@
 
 .empat {
   background-image: url(../assets/features.jpg);  
-  object-fit: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .lima {
   background-image: url(../assets/requirements.png);  
-  object-fit: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .enam {
@@ -152,6 +150,16 @@ body {
 .text2 {
   color: #898a8d;
   font-size: 10px;
+}
+
+.caret.down{
+  border-top-color: rgb(247, 240, 240);
+}
+
+#svgMaine {
+  margin-left:auto; 
+  margin-right:auto; 
+  display:block;
 }
 
 
